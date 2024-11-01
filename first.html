@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<style>
+
+body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-image: url(https://lh3.googleusercontent.com/drive-storage/AJQWtBOItzdu2z744f95Fca9gERuZ6t3GypT1s2bOhvvKwfWxFj1sTGhnElnM6Zd0qvGpGwG_xKj3rMYgVd9kiAtmNa9KEn46eNhR1zFzLacad9YtLc=w1600-h773);
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        span{
+         color: #fff;
+        }
+
+        /* Style for the form container */
+        .form {
+            background-image: url(https://lh3.googleusercontent.com/drive-storage/AJQWtBOItzdu2z744f95Fca9gERuZ6t3GypT1s2bOhvvKwfWxFj1sTGhnElnM6Zd0qvGpGwG_xKj3rMYgVd9kiAtmNa9KEn46eNhR1zFzLacad9YtLc=w1600-h773);
+            padding: 50px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            width: 300px;
+        }
+        .form h2 label {
+            color: #fff;
+        }
+         /* Form heading */
+         h2 {
+            margin-top: 0;
+            color:purple;
+            font-weight: 950;
+            font-size: 5000;
+        }
+
+        /* Label styling */
+        label {
+            display: block;
+            margin: 10px 0 5px;
+        }
+        label :placeholder-shown{
+            color: black;
+        }
+         /* Input and textarea styling */
+         input,textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            background-color: rgba(226, 224, 226, 0.527);
+        }
+          /* Button styling */
+          button {
+            background-color:purple;
+            color: white;
+            padding: 10px;
+            width: 100%;
+            border-radius: 20px;
+            height: 3px cursor pointer;
+        }
+             /*forget passward */
+             .fp {
+            text-decoration: none;
+            font-size: medium;
+        }
+        /*Remember*/
+       .r {
+            text-decoration: none;
+        }
+        #icon {
+    position: absolute;
+    left: 790px; /* Adjust as needed */
+
+    transform: translateY(-50%);
+    color: #888; /* Icon color */
+}
+#envo {
+    position: absolute;
+    left: 790px; /* Adjust as needed */
+  top: 45px;
+    transform: translateY(-50%);
+    color: #888; /* Icon color */
+}
+#lock{
+
+    position: absolute;
+    left: 790px; /* Adjust as needed */
+  
+    transform: translateY(-50%);
+    color: #888; /* Icon color */
+}
+
+</style>
+
+<body>
+<b>
+   <center>
+<div class="form">
+<form action="">
+
+<center><h2>Login Form</h2></center>
+<label for="name"> <span>Name</span> </label>
+
+<div class="input-container">
+    <input type="password" name="" id="name" placeholder="Enter the Name" required>
+    <i id="icon" class="fa-solid fa-user icon"></i>
+</div>
+<div class="input-container">
+    <input type="email " name="" id="email" placeholder="Enter the Email" required>
+    <i id="envo" class="fa-solid fa-envelope icon"></i>
+</div>
+<div class="input-container">
+    <input type="password" name="" id="password" placeholder="Enter the password" required>
+    <i id="lock" class="fa-solid fa-lock icon"></i>
+</div> 
+
+<a class="r" href="" style="margin-left: 50px;">Remember me</a>
+<button style="margin-top: 10px;" type="submit">Login</button>
+</form>
+
+</div>
+</center>  
+</body>
+
+</html>
